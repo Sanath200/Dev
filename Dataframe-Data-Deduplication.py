@@ -11,7 +11,6 @@ data = """customer_id,first_name,last_name,email,phone
 null,null,null,null,null
 """
 
-# Write to a volume location
 dbutils.fs.put("/Volumes/first_catalog/default/second_volumn/data.csv", data, overwrite=True)
 
 # COMMAND ----------

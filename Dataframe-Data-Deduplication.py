@@ -40,7 +40,6 @@ data3 = [
 
 schema=StructType([StructField('id',IntegerType(),True),StructField('name',StringType(),True),StructField('email',StringType(),True),StructField('phone',StringType(),True)])
 df_n=spark.createDataFrame(data3,schema)
-df_n.show()
 
 
 # COMMAND ----------
